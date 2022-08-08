@@ -1,18 +1,10 @@
-# Pannengerät Krank-Knarrenbauer
+# Bayern Add-On
 
-Browser extension, which replaces _Ammenschreck Krebs-Katzenjammer_ by silly names.
-Finds the combination of first name and last, or only last name.
-
-It is also possible to enable some other replacements for other persons in the extensions settings page.
+Browser Extension, which replaces words like Koschi with Gamelle or Hopo with Topf
 
 ## 🛠 Installation
 
 ### Firefox (>= 51)
-
-- Get the extension from the [Firefox Add-ons page](https://addons.mozilla.org/de-DE/firefox/addon/pannengerat-krank-knarrenbauer/)
-
-or
-
 - download the repo
 - open `about:debugging`
 - click "Load Temporary Add-on"
@@ -20,26 +12,7 @@ or
 
 ### Chrome / Opera / Edge (>= 76)
 
-- download the repo
-- open `chrome://extensions/` (or `opera://extensions/` or `edge://extensions/`)
-- toggle "Developer mode" switch on
-- click button "Load unpacked"
-- choose the folder of the repo
-
-## 🕰 Version history
-
-### ✨ v0.4: Options page to toggle replacements and disabling other names
-
-By default this restores the original behavoiur of the extension, only replacing AKK.
-
-It disables the other replacements introduced in the previous version.
-You are now free to choose which replacements are enabled via the extensions settings page (Extras > Add-ons > Extensions > Choose the extenstion > switch to second tab).
-
-### v0.3: Replacement of other people
-
-Other relevant people are being found and replaced with silly names.
-
-I added some logic/randomness wheter a combined name of first-, middle- and lastname is used _or_ a full nickname.
+- Not yet available
 
 ## ℹ️ Notice
 
@@ -65,7 +38,7 @@ When adding new persons follow this format of the object:
     substitutionsComplete: ["Spitzname1"],
   }
 ```
-
+Afterwards, since i didn't bother with a settings file like the original, add in content.js a "person-id": "on", under settings_persons
 Please don't submit stuff, that is out of the borders of satire.
 
 ## 🔨 Development
@@ -78,9 +51,5 @@ Please don't submit stuff, that is out of the borders of satire.
 
 ## 👍 Credits
 
-- Inspiration and original substitutions come from this [reddit.com/r/de thread](https://old.reddit.com/r/de/comments/cea32a/kleine_ansammlung_von_namensbausteinen_und/)
-
 - Forked from https://github.com/viktorsec/bumpercar-candysnatch
-- Or write an issue with suggestions and I'll add them later
-
-- Thanks to all the contributors, be it PRs, suggestions on reddit or whatever
+- Later forked from https://github.com/voodoocode/pannengeraet-krank-knarrenbauer

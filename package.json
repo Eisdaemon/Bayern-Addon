@@ -1,7 +1,7 @@
 {
-  "name": "annegate-krank-knarrenbauer",
-  "description": "Browser extension, which replaces *Ammenschreck Krebs-Katzenjammer* and other politicians by silly names.",
-  "version": "0.4.2",
+  "name": "Bayern-Addon",
+  "description": "Makes the Internet Usabel for Bavarian Scouts",
+  "version": "0.1",
   "main": "content.js",
   "scripts": {
     "start:firefox": "web-ext run --source-dir ./",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/voodoocode/pannengeraet-krank-knarrenbauer.git"
+    "url": "git+https://github.com/Eisdaemon/Bayern-Addon.git"
   },
-  "author": "voodoocode",
+  "author": "Eisdaemon",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/voodoocode/pannengeraet-krank-knarrenbauer/issues"
+    "url": "https://github.com/Eisdaemon/Bayern-Addon/issues"
   },
-  "homepage": "https://github.com/voodoocode/pannengeraet-krank-knarrenbauer#readme",
+  "homepage": "https://github.com/Eisdaemon/Bayern-Addon#readme",
   "dependencies": {},
   "devDependencies": {
     "prettier": "2.2.1",
