@@ -1,0 +1,25 @@
+{
+  "name": "annegate-krank-knarrenbauer",
+  "description": "Browser extension, which replaces *Ammenschreck Krebs-Katzenjammer* and other politicians by silly names.",
+  "version": "0.4.2",
+  "main": "content.js",
+  "scripts": {
+    "start:firefox": "web-ext run --source-dir ./",
+    "build": "web-ext build --overwrite-dest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/voodoocode/pannengeraet-krank-knarrenbauer.git"
+  },
+  "author": "voodoocode",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/voodoocode/pannengeraet-krank-knarrenbauer/issues"
+  },
+  "homepage": "https://github.com/voodoocode/pannengeraet-krank-knarrenbauer#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "prettier": "2.2.1",
+    "web-ext": "6.1.0"
+  }
+}
