@@ -1,7 +1,7 @@
 {
   "name": "Bayern-Addon",
   "description": "Makes the Internet Usabel for Bavarian Scouts",
-  "version": "0.1",
+  "version": "0.1.0",
   "main": "content.js",
   "scripts": {
     "start:firefox": "web-ext run --source-dir ./",
